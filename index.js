@@ -7,7 +7,7 @@ constructor(name, sex) {
   }
 
   speak() {
-    return this.name+"says meow!"
+    return this.name+" says meow!"
   }
 }
  
@@ -18,7 +18,7 @@ constructor(name, sex) {
   }
 
   speak() {
-    return this.name+"says woof!"
+    return this.name +" says woof!"
   }
 }
  
@@ -32,7 +32,7 @@ class Bird {
     if (this.sex == "male") {
       return "It's me! "+this.name +" , the parrot!"
     } else {
-       return this.name+"says squawk!"
+       return this.name+" says squawk!"
     }
   }
 }
